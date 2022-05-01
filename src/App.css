@@ -1,0 +1,35 @@
+.app{
+    font-family: 'Handlee', cursive;
+    background: rgba(237, 237, 237, 0.625);
+    height: 100vh;
+    color: rgba(86, 85, 85, 0.766);
+    /* overflow: hidden; */
+    overflow: auto;
+}
+
+h1{
+    font-size: 5.5em;
+    margin-top: 16px;
+}
+
+h1 i{
+    color: rgba(128, 0, 128, 0.673);
+    
+}
+
+h2 i{
+    color: black;
+}
+
+h2 .a{
+    color: rgba(237, 237, 237, 0);;
+}
+
+.imgBg{
+    height: 260px;   
+}
+@media (max-width:768px) {
+    .imgBg{
+        height: 300px;   
+    }
+  }
